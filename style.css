@@ -9,7 +9,7 @@ body {
     display: flex;
     flex-direction: column;
     flex: 1;
-    align-items: space-around;
+    justify-content: space-between;
     color:#e5e7eb;
 }
 .header-section,
@@ -46,6 +46,12 @@ ul {
 
 .section-one {
     display: flex;
+}
+.quote-section {
+    background: #e5e7eb;
+    color:#1f2937;
+    font-size: 36px;
+    padding: 60px 60px;
 }
 .sign-up,
 .call-button {
