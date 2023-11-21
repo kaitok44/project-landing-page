@@ -8,6 +8,9 @@ body {
     padding: 0;
     display: flex;
     flex-direction: column;
+    flex: 1;
+    align-items: space-around;
+    color:#e5e7eb;
 }
 .header-section,
 .section-one,
@@ -44,12 +47,28 @@ ul {
 .section-one {
     display: flex;
 }
-.sign-up {
+.sign-up,
+.call-button {
     background: #3882f6;
     color:  #f9faf8;
     border: none;
     padding: 4px 24px;
     border-radius: 4px;
+}
+.call-action-section {
+    background: #3882f6;
+    margin: 100px 100px;
+    padding: 30px 48px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-around;
+}
+.call-text {
+    font-size: 24px;
+    font-weight: 900;
+}
+.call-button {
+    border: solid 1px #f9faf8;
 }
 .footer {
     margin-top: auto;
