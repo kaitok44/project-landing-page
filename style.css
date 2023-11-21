@@ -5,7 +5,9 @@ font-family: Arial, Helvetica, sans-serif;
 body {
     min-height: 100vh;
     margin: 0;
-    padding: 0, 60px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
 }
 .header-section,
 .section-one {
@@ -40,4 +42,14 @@ ul {
 
 .section-one {
     display: flex;
+}
+.footer {
+    margin-top: auto;
+    height: 72px;
+    background: #1f2937;
+    color: #e5e7eb;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
