@@ -10,7 +10,8 @@ body {
     flex-direction: column;
 }
 .header-section,
-.section-one {
+.section-one,
+.footer {
     background: #1f2937;
     color: #e5e7eb;
     font-size: 18px;
@@ -43,11 +44,16 @@ ul {
 .section-one {
     display: flex;
 }
+.sign-up {
+    background: #3882f6;
+    color:  #f9faf8;
+    border: none;
+    padding: 4px 24px;
+    border-radius: 4px;
+}
 .footer {
     margin-top: auto;
     height: 72px;
-    background: #1f2937;
-    color: #e5e7eb;
     font-size: 18px;
     display: flex;
     justify-content: center;
