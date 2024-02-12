@@ -1,19 +1,15 @@
 *{
 font-family: Arial, Helvetica, sans-serif;
+margin: 0;
 }
 
 body {
+    min-width: 100vw;
     min-height: 100vh;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    flex: 1;
-    justify-content: space-between;
     color:#e5e7eb;
 }
 .header-section,
-.section-one,
+.section1,
 .footer {
     background: #1f2937;
     color: #e5e7eb;
@@ -24,7 +20,7 @@ body {
     color: #f9faf8;
     font-weight: 700;
 }
-.main-title {
+.s1header {
     font-size: 48px;
     font-weight: 1000;
     color: #f9faf8;
@@ -34,7 +30,7 @@ body {
     padding: 20px;
     display: flex;
     justify-content: space-between;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
 }
 ul {
     list-style: none;
@@ -44,14 +40,89 @@ ul {
     margin: 0;
 }
 
-.section-one {
+.section1 {
     display: flex;
+    justify-content: space-around;
+    padding: 20px;
 }
-.quote-section {
+.s1left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.s1txt {
+    width: 400px;
+    text-wrap: wrap;
+}
+.s1img {
+    display: flex;
+    align-self: start;
+    width: 300px;
+    height: 300px;
+}
+
+.section2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.header2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: 900;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color:#1f2937;
+
+}
+
+.s2img {
+    color:#1f2937;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.placeholder {
+    border: solid #3882f6;
+    border-radius: 4mm;
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+}
+.s2text {
+    max-width: 150px;
+    text-align: center;
+}
+
+.s3 {
     background: #e5e7eb;
     color:#1f2937;
     font-size: 36px;
-    padding: 60px 60px;
+    padding: 65px 65px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.s3q {
+    font-style: italic;
+    padding-bottom: 16px;
+    max-width: 800px; 
+}
+.s3n {
+    margin-left: 600px;
+    font-size: 18px;
+
 }
 .sign-up,
 .call-button {
@@ -61,13 +132,15 @@ ul {
     padding: 4px 24px;
     border-radius: 4px;
 }
-.call-action-section {
+.s4 {
+    max-height: 150px;
     background: #3882f6;
-    margin: 100px 100px;
-    padding: 30px 48px;
+    margin: 60px 70px;
+    padding: 40px 40px;
     border-radius: 4px;
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 .call-text {
     font-size: 24px;
@@ -77,7 +150,6 @@ ul {
     border: solid 1px #f9faf8;
 }
 .footer {
-    margin-top: auto;
     height: 72px;
     font-size: 18px;
     display: flex;
